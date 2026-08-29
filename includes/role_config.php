@@ -1,7 +1,7 @@
 <?php
 // Giả lập session người dùng đăng nhập
-$userRole = 'TK'; // 'CCV' (Công chứng viên) hoặc 'TK' (Thư ký)
-$userName = 'Nguyễn Văn A';
+$userRole = 'ADMIN'; // 'CCV' (Công chứng viên) hoặc 'TK' (Thư ký)
+$userName = 'Nguyễn Tấn Phát';
 
 // Hàm kiểm tra quyền hiển thị các block tính năng
 function canView($feature, $role) {
